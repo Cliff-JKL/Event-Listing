@@ -1,3 +1,5 @@
 # Event-Listing
-### Open Project
-Open in GitHub Pages: [link](https://cliff-jkl.github.io/Event-Listing/)
+
+## Launch
+
+Open project in GitHub Pages: [Event-Listing](https://cliff-jkl.github.io/Event-Listing/)
