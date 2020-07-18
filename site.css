@@ -21,7 +21,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    height: 100%;
+    /*height: 100%;*/
     font-family: Arial, sans-serif;
 }
 
@@ -93,7 +93,7 @@ h1 {
 
 .tile-svg {
     position: absolute;
-    margin: 25px 25px 0 450px ;
+    margin: 25px 25px 0 397px ;
     width: 28px;
     height: 30px;
     color: white;
@@ -108,6 +108,7 @@ h1 {
   position: relative;
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 1199px) {
@@ -124,7 +125,7 @@ h1 {
 
 @media (max-width: 767px) {
     .content {
-        -webkit-transform: scale(0.65, 0.65);
+        -webkit-transform: scale(0.65, 0.65) translateY(-25%);
         padding: 10px;
         margin: 0;
     }
